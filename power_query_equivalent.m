@@ -1,14 +1,11 @@
 // Power Query M equivalent of the currency-normalization and
 // conflict-flagging logic in src/reconcile.py.
 //
-// HONEST DISCLOSURE: this M code is hand-written to mirror the tested
-// Python logic in src/reconcile.py. It has NOT been executed inside a
-// real Power Query / Excel environment -- this sandbox has no licensed
-// Excel or Power BI Desktop to run it in. It should be read as "this is
-// how the same, already-tested logic would be expressed in M," not as
-// independently-verified Power Query experience. This is the same
-// honest framing used in the powerquery-sap-reporting project elsewhere
-// in this portfolio.
+// NOTE: this M code is hand-written to mirror the tested Python logic
+// in src/reconcile.py, showing how the same logic is expressed in M. It
+// has not been executed inside a Power Query / Excel environment; the
+// tested reference implementation is the Python code. The
+// powerquery-sap-reporting project follows the same approach.
 
 let
     Source = FinancialRecords, // assume a query/table with columns:

@@ -1,7 +1,7 @@
 """
-Benchmarking and trend-analysis functions -- the "conduct benchmarking,
-trend analysis, and ad-hoc research" and "translate business questions
-into structured data and dashboard requirements" parts of the posting.
+Benchmarking and trend-analysis functions: revenue-growth ranking, EBIT
+margin benchmarking against the peer average, and segment/region leaders,
+structured so they can feed dashboards and ad-hoc research.
 """
 
 from __future__ import annotations

@@ -10,7 +10,7 @@ before anything can go into a dashboard or a slide.
 
 All company names, financials, and product data below are entirely
 fictional. This is not real market research and does not describe any
-real company, including Innomotics or its actual competitors.
+real company.
 """
 
 from __future__ import annotations
